@@ -14,6 +14,10 @@ Add your address and mint a cat!
 
 ## Deployment
 
+Clone this repo
+
+Create an env file with the deatils of your accounts:
+
 .env file required to look something like this:
 
 ```
@@ -21,4 +25,22 @@ ROPSTEN_PUBLIC_KEY=...
 ROPSTEN_PRIVATE_KEY=...
 ALCHEMY_API=...
 ETHERSCAN_API_KEY=...
+```
+
+Install dependencies
+
+```
+yarn
+```
+
+Deploy contract
+
+```
+yarn hardhat run --network ropsten scripts/deploy.ts
+```
+
+Verify on etherscan
+
+```
+yarn hardhat verify --network ropsten  DEPLOYED_CONTRACT_ADDRESS
 ```
