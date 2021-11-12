@@ -1,6 +1,6 @@
 # DEPLOY INFINITE MUTANT CATS
 
-Deployed address: [0xD29E7D689096a4bb3E6bb549EFb7d23645905C6A](https://ropsten.etherscan.io/address/0xD29E7D689096a4bb3E6bb549EFb7d23645905C6A)
+Deployed address on Ropsten: [0xD29E7D689096a4bb3E6bb549EFb7d23645905C6A](https://ropsten.etherscan.io/address/0xD29E7D689096a4bb3E6bb549EFb7d23645905C6A)
 
 .env file required to look something like this:
 
