@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 
 // import "solidity-util/lib/Strings.sol";
 
-contract MutantCats is ERC721URIStorage, Ownable {
+contract MutantGorillas is ERC721URIStorage, Ownable {
   using Counters for Counters.Counter;
   Counters.Counter private _tokenIds;
 
